@@ -16,8 +16,8 @@ Il progetto utilizza le seguenti librerie principali:
 ### 2. Configurazione
 - **Rilevamento del dispositivo**: Il progetto è ottimizzato per funzionare su GPU (CUDA o MPS su dispositivi Apple) o CPU, con un controllo automatico delle disponibilità hardware.
 - **Percorsi dei dati**:
-  - Training set: `/Users/roberto/Desktop/FINALP/TargetSpaziali/train`
-  - Test set: `/Users/roberto/Desktop/FINALP/TargetSpaziali/test`
+  - Training set: `/your/path/TargetSpaziali/train`
+  - Test set: `/your/path/TargetSpaziali/test`
 
 ### 3. Dataset
 Il dataset contiene spettrogrammi di segnali, che sono suddivisi in tre classi in base alla loro grandezza. 
@@ -61,4 +61,4 @@ Il modello raggiunge un'accuratezza elevata sulla classificazione dei dati di te
 
 ---
 
-Sviluppato da: [Il tuo Nome]
+Sviluppato da: Roberto Magno Mazzotta
